@@ -19,7 +19,7 @@ export const useCalculadora = () => {
   
     const armarNumero = ( numeroTexto: string ) => {
   
-      // No haceptar doble punto
+      // No aceptar doble punto
   
       if(numero.includes('.') && numeroTexto === '.') return;
       
@@ -27,7 +27,7 @@ export const useCalculadora = () => {
   
       if( numero.startsWith('0') || numero.startsWith('-0')){
           
-                // Punto desimal
+                // Punto decimal
         if( numeroTexto === '.'){
           setNumero( numero + numeroTexto)
   

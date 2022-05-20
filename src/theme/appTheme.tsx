@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         marginRight: 10
     },
-    resultadoPequeño: {
+    resultadoPeque: {
         color: 'rgba(255,255,255,0.5)',
         fontSize: 30,
         textAlign: 'right'

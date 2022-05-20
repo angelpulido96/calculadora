@@ -26,7 +26,7 @@ export const CalculadoraScreen = () => {
     <View style={styles.calculadoraContainer}>
       {
         (numeroAnterior !== '0') && (
-          <Text style={styles.resultadoPequeño}>{numeroAnterior}</Text>
+          <Text style={styles.resultadoPeque}>{numeroAnterior}</Text>
         )
       }
       <Text 
